@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("PRSA_Data_Cleaned.csv")
+df = pd.read_csv("/dashboard/PRSA_Data_Cleaned.csv")
 
 # Cleaning: Menghilangkan data NaN
 df_cleaned = df.dropna()
